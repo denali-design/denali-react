@@ -1,0 +1,113 @@
+import { Meta, Story, Canvas } from '@storybook/addon-docs/blocks';
+
+<Meta title="Get Started/Installation" />
+
+# Why Denali-React?
+
+Ever wanted to use a React library, where you aren't tied to our component's visual design and can theme it with your own unique visual style?
+Denali-React provides exactly that!
+
+Denali-React is an implementation of [Denali CSS Framework](https://denali.design/) in [React](https://reactjs.org/).
+
+## Installation
+
+Learn how to install Denali-React into any web project.
+
+## Using Denali-React via NPM
+
+### Install
+
+For most projects and to take advantage of our themeable features, you'll want to install Denali via npm.
+
+```
+npm install @denali-design/react
+
+```
+
+### Import
+
+After installation, you can import Denali component into your React project using the code below.
+
+```js
+import { DnButton } from '@denali-design/react';
+```
+
+## Using Denali CSS, Icons and Fonts
+
+### via CDN
+
+To get started quickly just import a two `.css` files from [jsDelivr](https://www.jsdelivr.com/) for components and icons. Please note that many features we descriibe in our documentation such as themeing. These will not be available without incorporating Denali into tour build process.
+
+### Denali
+
+This CDN link includes everything you see documented in Denali CSS components, layouts, resets, and helpers. Please note this CDN link does not include the [Denali Icon Font](https://github.com/denali-design/denali-icon-font) library.
+
+```
+https://cdn.jsdelivr.net/npm/denali-css/css/denali.css
+```
+
+### Icons
+
+This CDN link can be used to import out Icon Font library. You just have to inlcude one `.css` file.
+
+```
+https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css
+```
+
+### via Head Tag Links
+
+Add these link tags into the head of your HTML document for easy Installation.
+
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-icon-font/dist/denali-icon-font.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/denali-css/css/denali.css">
+```
+
+---
+
+### via NPM
+
+## Using Denali via NPM
+
+For most projects we recommend installing Denali via node package manager which will expose the `.scss` files. These give you the flexibility of building your application the way you see fit and utilize all Denali has to offer.
+
+If you've never heard of SASS or wondering how its different then other preprocessor, you can learn a little more on the [SASS](https://sass-lang.com/) website.
+
+### Install
+
+For most projects and to take advantage of our themeable features, you'll want to install Denali via npm.
+
+```
+npm install denali-css
+```
+
+> If you plan to use Denali without `.scss` files see below, if not skip ahead to compile scss for your project.
+
+### Import
+
+After installation, you can import the CSS file into your js project using the code below.
+
+```
+@import 'denali-css/css/denali.css'
+```
+
+---
+
+Please visit [Denali CSS Installation](https://denali-design.github.io/denali-css/?path=/story/get-started-installation--page) for additional information.
+
+## App.js Starter template
+
+If you want to get started right away install denali dependencies (Denali-React, CSS, Icons and fonts) and use this starter template in App.js of your React project.
+
+```js
+import { DnButton } from '@denali-design/react'; //INFO: To load Denali-React component library
+import 'denali-css/css/denali.css'; // INFO: To load denali css
+import 'denali-icon-font/dist/denali-icon-font.css'; // INFO: To load denali icon font css
+import './css/site-denali-theme.css'; // INFO: To load denali them css
+
+function App() {
+    return <DnButton>Submit</DnButton>;
+}
+
+export default App;
+```
