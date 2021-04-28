@@ -8,7 +8,8 @@ import { jsxDecorator } from 'storybook-addon-jsx';
 import 'denali-css/css/denali.css';
 import '@denali-design/icons/dist/font/denali-icons-font.css';
 
-// TODO: import themes
+// themes
+import './css/denali-dark-theme.css';
 
 addDecorator(jsxDecorator);
 

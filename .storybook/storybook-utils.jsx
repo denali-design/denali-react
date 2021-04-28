@@ -7,7 +7,7 @@ import { select } from '@storybook/addon-knobs';
 
 const themeOptions = {
     Denali: ''
-    // TODO: add more themes
+    DenaliDark: 'denali-dark-theme',
 };
 
 export const getThemeClassName = () => select('Theme', themeOptions, themeOptions.Denali);
