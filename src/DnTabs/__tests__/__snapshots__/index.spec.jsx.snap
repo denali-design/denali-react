@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnTabs Tests should render correctly with custom props 1`] = `
+<div
+  class="tabs is-secondary is-vertical dummy-tabs"
+>
+  <ul>
+    <li
+      class="dummy-tab-item"
+    >
+      <span>
+        Tab 1
+      </span>
+    </li>
+    <li
+      class="is-active"
+    >
+      <span>
+        Tab 2
+      </span>
+    </li>
+    <li
+      class="is-disabled"
+    >
+      <span>
+        Tab 3
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Tab 4
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DnTabs Tests should render correctly with section header 1`] = `
+<div
+  class="tabs is-secondary is-vertical tablet-down-hide-left dummy-tabs"
+>
+  <ul>
+    <li
+      class="tabs__section-header dummy-section-header-item"
+    >
+      <span>
+        SECTION HEADER
+      </span>
+    </li>
+    <li
+      class="is-active"
+    >
+      <span>
+        Tab 1
+      </span>
+    </li>
+    <li
+      class="is-disabled"
+    >
+      <span>
+        Tab 2
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Tab 3
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DnTabs Tests should render with default props 1`] = `
+<div
+  class="tabs is-primary"
+>
+  <ul>
+    <li
+      class=""
+    >
+      <span>
+        Tab 1
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Tab 2
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Tab 3
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Tab 4
+      </span>
+    </li>
+  </ul>
+</div>
+`;

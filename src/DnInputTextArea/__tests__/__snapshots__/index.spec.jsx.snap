@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnInputTextArea Tests should render correctly with custom props 1`] = `
+<div
+  class="Foo"
+>
+  <div
+    class="input is-active is-inverse is-disabled is-error"
+  >
+    <textarea
+      disabled=""
+      id="someId"
+      placeholder="Just an input field"
+    />
+    <p
+      class="message"
+    >
+      Error
+    </p>
+  </div>
+</div>
+`;
+
+exports[`DnInputTextArea Tests should render with default props 1`] = `
+<div
+  class="input"
+>
+  <textarea />
+</div>
+`;

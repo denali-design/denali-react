@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnBreadcrumb Tests should render correctly with custom props 1`] = `
+<ul
+  class="breadcrumb Foo"
+>
+  <li>
+    <span
+      class="link Foo"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link Foo"
+    >
+      <a
+        href="#Section"
+      >
+        Section
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link Foo"
+    >
+      <a
+        href="#SubSection"
+      >
+        Sub Section
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link Foo"
+    >
+      <span>
+        Article
+      </span>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`DnBreadcrumb Tests should render correctly with ellipses 1`] = `
+<ul
+  class="breadcrumb"
+>
+  <li>
+    <span
+      class="link"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link"
+    >
+      <div
+        class="menu"
+      >
+        <a
+          class="menu-trigger"
+        >
+          <i
+            class="d-icon d-more-horizontal is-small link"
+          />
+        </a>
+        <div
+          class="menu-content"
+        >
+          <span
+            class="link"
+          >
+            <a
+              href="#home"
+            >
+              Home
+            </a>
+          </span>
+          <span
+            class="link"
+          >
+            <a
+              href="#about"
+            >
+              About
+            </a>
+          </span>
+          <span
+            class="link"
+          >
+            <a
+              href="#contact"
+            >
+              Contact
+            </a>
+          </span>
+          <span
+            class="link"
+          >
+            <a
+              href="#help"
+            >
+              Help
+            </a>
+          </span>
+          <span
+            class="link"
+          >
+            <hr />
+          </span>
+          <span
+            class="link"
+          >
+            <a
+              href="#support"
+            >
+              Support
+            </a>
+          </span>
+        </div>
+      </div>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link"
+    >
+      <a
+        href="#article"
+      >
+        Article
+      </a>
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`DnBreadcrumb Tests should render with default props 1`] = `
+<ul
+  class="breadcrumb"
+>
+  <li>
+    <span
+      class="link"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link"
+    >
+      <a
+        href="#Section"
+      >
+        Section
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link"
+    >
+      <a
+        href="#SubSection"
+      >
+        Sub Section
+      </a>
+    </span>
+  </li>
+  <li>
+    <span
+      class="link"
+    >
+      <span>
+        Article
+      </span>
+    </span>
+  </li>
+</ul>
+`;

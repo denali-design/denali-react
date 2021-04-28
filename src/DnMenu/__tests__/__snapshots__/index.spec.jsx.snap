@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnMenu Tests should render correctly with custom props 1`] = `
+<div
+  class="menu is-left Foo"
+>
+  <a
+    class="menu-trigger"
+  >
+    Hover for default menu
+  </a>
+  <div
+    class="menu-content"
+  >
+    <span
+      class="link"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#about"
+      >
+        About
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#contact"
+      >
+        Contact
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#help"
+      >
+        Help
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <hr />
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#support"
+      >
+        Support
+      </a>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`DnMenu Tests should render correctly with isEllipses props 1`] = `
+<div
+  class="menu is-left Foo"
+>
+  <a
+    class="menu-trigger"
+  >
+    <i
+      class="d-icon d-more-horizontal is-small link"
+    />
+  </a>
+  <div
+    class="menu-content"
+  >
+    <span
+      class="link"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#about"
+      >
+        About
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#contact"
+      >
+        Contact
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#help"
+      >
+        Help
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <hr />
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#support"
+      >
+        Support
+      </a>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`DnMenu Tests should render with default props 1`] = `
+<div
+  class="menu"
+>
+  <a
+    class="menu-trigger"
+  >
+    Hover for default menu
+  </a>
+  <div
+    class="menu-content"
+  >
+    <span
+      class="link"
+    >
+      <a
+        href="#home"
+      >
+        Home
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#about"
+      >
+        About
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#contact"
+      >
+        Contact
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#help"
+      >
+        Help
+      </a>
+    </span>
+    <span
+      class="link"
+    >
+      <hr />
+    </span>
+    <span
+      class="link"
+    >
+      <a
+        href="#support"
+      >
+        Support
+      </a>
+    </span>
+  </div>
+</div>
+`;

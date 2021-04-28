@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnCheckbox Tests should render correctly with custom props 1`] = `
+Array [
+  <div
+    class="radio additional--class"
+  >
+    <input
+      checked=""
+      disabled=""
+      id="Radio1"
+      name="sample"
+      type="radio"
+      value="Radio1"
+    />
+    <label
+      for="Radio1"
+    >
+      Radio 1
+    </label>
+  </div>,
+  <div
+    class="radio"
+  >
+    <input
+      checked=""
+      disabled=""
+      id="Radio2"
+      name="sample"
+      type="radio"
+      value="Radio2"
+    />
+    <label
+      for="Radio2"
+    >
+      Radio 2
+    </label>
+  </div>,
+  <div
+    class="radio"
+  >
+    <input
+      checked=""
+      disabled=""
+      id="Radio3"
+      name="sample"
+      type="radio"
+      value="Radio3"
+    />
+    <label
+      for="Radio3"
+    >
+      Radio 3
+    </label>
+  </div>,
+]
+`;
+
+exports[`DnCheckbox Tests should render with default props: after change 1`] = `
+<div
+  class="radio"
+>
+  <input
+    id="Radio"
+    type="radio"
+    value=""
+  />
+  <label
+    for="Radio"
+  />
+</div>
+`;
+
+exports[`DnCheckbox Tests should render with default props: before change 1`] = `
+<div
+  class="radio"
+>
+  <input
+    id="Radio"
+    type="radio"
+    value=""
+  />
+  <label
+    for="Radio"
+  />
+</div>
+`;

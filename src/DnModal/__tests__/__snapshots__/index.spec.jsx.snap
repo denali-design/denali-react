@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnModal Tests should render correctly with custom props 1`] = `
+<div
+  class="modal is-active"
+  id="modal1"
+>
+  <div
+    class="modal-container is-full w-600px"
+  >
+    <div
+      class="close"
+    >
+      <button
+        class="button is-solid is-default"
+        type="button"
+      >
+        <i
+          class="d-icon d-close is-default"
+        />
+      </button>
+    </div>
+    <div
+      class="modal-header"
+    >
+      <span>
+        Dummy Header
+      </span>
+    </div>
+    <div
+      class="modal-content"
+    >
+      <p>
+        Dummy Component
+      </p>
+    </div>
+    <div
+      class="modal-footer"
+    >
+      <span>
+        Dummy Footer
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnModal Tests should render with default props 1`] = `
+<div
+  class="modal is-active"
+>
+  <div
+    class="modal-container"
+  >
+    <div
+      class="modal-content"
+    >
+      <p>
+        Dummy Component
+      </p>
+    </div>
+  </div>
+</div>
+`;

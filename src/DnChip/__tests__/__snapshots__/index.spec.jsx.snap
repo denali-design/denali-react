@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnChip Tests should render correctly with custom props 1`] = `
+<span
+  class="chips is-large has-bg-red-800 is-yellow-600 p-18"
+>
+  Offline
+</span>
+`;
+
+exports[`DnChip Tests should render with default props 1`] = `
+<span
+  class="chips is-default"
+>
+  Online
+</span>
+`;

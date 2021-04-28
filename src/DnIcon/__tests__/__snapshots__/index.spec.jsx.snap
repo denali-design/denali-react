@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnIcon Tests should render correctly with custom props 1`] = `
+<i
+  class="d-icon d-denali is-large is-yellow-600 p-18"
+/>
+`;
+
+exports[`DnIcon Tests should render with default props 1`] = `
+<i
+  class="d-icon d-denali is-default"
+/>
+`;

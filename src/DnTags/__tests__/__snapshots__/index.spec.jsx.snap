@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnTags Tests should render correctly with custom props 1`] = `
+<div
+  class="tags nowrap dummy-tabs"
+>
+  <span
+    class="tag dummy-tab-item"
+  >
+    Tag class name
+  </span>
+  <span
+    class="tag is-active"
+  >
+    Active Tag
+  </span>
+  <span
+    class="tag is-disabled"
+  >
+    Disabled Tag
+  </span>
+  <span
+    class="tag outlined"
+  >
+    Outlined Tag
+  </span>
+  <span
+    class="tag is-small"
+  >
+    Small Tag
+  </span>
+  <span
+    class="tag is-active outlined"
+  >
+    Active Outlined Tag
+  </span>
+  <span
+    class="tag is-active outlined is-small"
+  >
+    Active Outlined Small Tag
+  </span>
+  <span
+    class="tag is-disabled outlined"
+  >
+    Disabled Outlined Tag
+  </span>
+  <span
+    class="tag is-disabled outlined is-small"
+  >
+    Disabled Outlined Small Tag
+  </span>
+  <span
+    class="tag has-icon-front"
+  >
+    <i
+      class="d-icon d-check is-default"
+    />
+    Tag w/ Front Icon
+  </span>
+  <span
+    class="tag has-icon-back"
+  >
+    Tag w/ Back Icon
+    <i
+      class="d-icon d-close is-default"
+    />
+  </span>
+  <span
+    class="tag has-icon-front has-icon-back"
+  >
+    <i
+      class="d-icon d-check is-default"
+    />
+    Tag w/ Front and Back Icon
+    <i
+      class="d-icon d-close is-default"
+    />
+  </span>
+</div>
+`;
+
+exports[`DnTags Tests should render with default props 1`] = `
+<div
+  class="tags"
+>
+  <span
+    class="tag"
+  >
+    Tag 1
+  </span>
+  <span
+    class="tag"
+  >
+    Tag 2
+  </span>
+  <span
+    class="tag"
+  >
+    Tag 3
+  </span>
+  <span
+    class="tag"
+  >
+    Tag 4
+  </span>
+</div>
+`;

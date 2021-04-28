@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnTooltip Tests should render correctly with custom props 1`] = `
+<div
+  class=""
+>
+  <div
+    class="flex justify-content-center m-t-40"
+  >
+    <span
+      class="d-tooltip-right-small additional--class"
+      data-tooltip="the tooltip text"
+    >
+      <i
+        class="d-icon d-user-profile-circle is-default"
+      />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`DnTooltip Tests should render with default props 1`] = `
+<span
+  class="d-tooltip-default"
+  data-tooltip="the tooltip text"
+>
+  <span
+    class="link"
+  >
+    Tooltip
+  </span>
+</span>
+`;

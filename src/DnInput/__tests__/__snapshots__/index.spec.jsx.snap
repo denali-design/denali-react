@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnInput Tests should render correctly with Icon at back 1`] = `
+<div
+  class="input is-default has-icon-back"
+>
+  <input
+    type="text"
+  />
+  <i
+    class="d-icon d-close-circle-solid is-default is-grey-500"
+  />
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with Icon at back with error and placeholder 1`] = `
+<div
+  class="input is-default is-error has-icon-back"
+>
+  <input
+    placeholder="Just an input field"
+    type="text"
+  />
+  <i
+    class="d-icon d-close-circle-solid is-default is-grey-500"
+  />
+  <p
+    class="message"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with Icon at front 1`] = `
+<div
+  class="input is-default has-icon-front"
+>
+  <i
+    class="d-icon d-filter-horizontal is-default is-brand-300"
+  />
+  <input
+    type="text"
+  />
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with Icon at front with error and placeholder 1`] = `
+<div
+  class="input is-default is-error has-icon-front"
+>
+  <i
+    class="d-icon d-filter-horizontal is-default is-brand-300"
+  />
+  <input
+    placeholder="Just an input field"
+    type="text"
+  />
+  <p
+    class="message"
+  >
+    Error
+  </p>
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with button on field 1`] = `
+<div
+  class="input-group has-button"
+>
+  <span>
+    <div
+      class="input is-default"
+    >
+      <input
+        type="text"
+      />
+    </div>
+  </span>
+  <span>
+    <button
+      class="button is-solid is-default has-icon"
+      type="button"
+    >
+      <i
+        class="d-icon d-add is-small"
+      />
+    </button>
+  </span>
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with button on field with error and placeholder 1`] = `
+<div
+  class="input-group has-button"
+>
+  <span>
+    <div
+      class="input is-default is-error"
+    >
+      <input
+        placeholder="Just an input field"
+        type="text"
+      />
+      <p
+        class="message"
+      >
+        Error
+      </p>
+    </div>
+  </span>
+  <span>
+    <button
+      class="button is-solid is-default has-icon"
+      type="button"
+    >
+      <i
+        class="d-icon d-add is-small"
+      />
+    </button>
+  </span>
+</div>
+`;
+
+exports[`DnInput Tests should render correctly with custom props 1`] = `
+<div
+  class="Foo"
+>
+  <div
+    class="input is-active is-default is-inverse is-disabled is-error"
+  >
+    <input
+      disabled=""
+      id="someId"
+      placeholder="Just an input field"
+      type="text"
+    />
+    <p
+      class="message"
+    >
+      Error
+    </p>
+  </div>
+</div>
+`;
+
+exports[`DnInput Tests should render with default props 1`] = `
+<div
+  class="input is-default"
+>
+  <input
+    type="text"
+  />
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnInputGroup Tests should render correctly with custom props 1`] = `
+<div
+  class="Foo"
+>
+  <div
+    class="input-group is-stacked is-responsive auto"
+  >
+    <label
+      for="someId"
+    >
+      Label
+    </label>
+    <span>
+      <div
+        class="input is-default"
+      >
+        <input
+          id="someId"
+          type="text"
+        />
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`DnInputGroup Tests should render with default props 1`] = `
+<div
+  class="input-group"
+>
+  <span>
+    <div
+      class="input is-default"
+    >
+      <input
+        type="text"
+      />
+    </div>
+  </span>
+</div>
+`;

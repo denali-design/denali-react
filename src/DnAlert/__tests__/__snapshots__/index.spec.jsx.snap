@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnAlert Tests should render correctly with custom props 1`] = `
+<div
+  class="alert is-danger is-block test--class"
+>
+  <i
+    class="d-icon d-stop-urgent is-default"
+  />
+  <div>
+    <h5>
+      This is the title
+    </h5>
+    <p>
+      The message provides users with context of the alert.
+    </p>
+  </div>
+  <span
+    class="link close is-secondary"
+  >
+    <i
+      class="d-icon d-close is-default is-sub"
+    />
+  </span>
+</div>
+`;
+
+exports[`DnAlert Tests should render with default props 1`] = `
+<div
+  class="alert is-default"
+>
+  <i
+    class="d-icon d-domain is-default"
+  />
+  <div>
+    <h5>
+      This is a title
+    </h5>
+  </div>
+  <span
+    class="link close is-secondary"
+  >
+    <i
+      class="d-icon d-close is-default is-sub"
+    />
+  </span>
+</div>
+`;

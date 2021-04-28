@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnButton Tests should render correctly with custom props 1`] = `
+<button
+  class="button is-active is-ghost is-large is-inverse is-disabled is-full p-18"
+  type="submit"
+>
+  Submit From
+</button>
+`;
+
+exports[`DnButton Tests should render correctly with custom props with is loading 1`] = `
+<button
+  class="button is-active is-ghost is-large is-inverse is-disabled is-full p-18"
+  type="submit"
+>
+  <div
+    class="loader loader--button"
+  />
+</button>
+`;
+
+exports[`DnButton Tests should render with default props 1`] = `
+<button
+  class="button is-solid is-default"
+  type="button"
+>
+  Continue
+</button>
+`;

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnLink Tests should render correctly with Icon at back 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link has-icon-back"
+  >
+    Home
+    <i
+      class="d-icon d-external is-default is-sub"
+    />
+  </span>
+</a>
+`;
+
+exports[`DnLink Tests should render correctly with Icon at back with all props 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link is-active is-disabled is-small is-secondary is-sub has-icon-back"
+  >
+    Home
+    <i
+      class="d-icon d-external is-default is-sub"
+    />
+  </span>
+</a>
+`;
+
+exports[`DnLink Tests should render correctly with Icon at front 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link has-icon-front"
+  >
+    <i
+      class="d-icon d-add-circle is-default"
+    />
+    Home
+  </span>
+</a>
+`;
+
+exports[`DnLink Tests should render correctly with Icon at front with additional props 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link is-active is-disabled is-small is-secondary is-sub has-icon-front"
+  >
+    <i
+      class="d-icon d-add-circle is-default"
+    />
+    Home
+  </span>
+</a>
+`;
+
+exports[`DnLink Tests should render correctly with custom props 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link is-active is-disabled is-small is-secondary is-sub"
+  >
+    Home
+  </span>
+</a>
+`;
+
+exports[`DnLink Tests should render with default props 1`] = `
+<a
+  href="#home"
+>
+  <span
+    class="link"
+  >
+    Home
+  </span>
+</a>
+`;

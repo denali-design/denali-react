@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnProgress Tests should render correctly with custom props 1`] = `
+<div
+  class="d-progress d-progress__lg p-18"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="25"
+    class="d-progress--bar has-bg-status-danger foo-1"
+    role="progressbar"
+    style="width:25%"
+  />
+</div>
+`;
+
+exports[`DnProgress Tests should render multi bar correctly with custom props 1`] = `
+<div
+  class="d-progress d-progress__lg p-18"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="15"
+    class="d-progress--bar has-bg-status-danger foo-1"
+    role="progressbar"
+    style="width:15%"
+  />
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="30"
+    class="d-progress--bar has-bg-status-warning foo-2"
+    role="progressbar"
+    style="width:30%"
+  />
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="20"
+    class="d-progress--bar has-bg-status-success foo-3"
+    role="progressbar"
+    style="width:20%"
+  />
+</div>
+`;
+
+exports[`DnProgress Tests should render with default props 1`] = `
+<div
+  class="d-progress"
+>
+  <div
+    aria-valuemax="100"
+    aria-valuemin="0"
+    aria-valuenow="50"
+    class="d-progress--bar"
+    role="progressbar"
+    style="width:50%"
+  />
+</div>
+`;
+
+exports[`DnProgress Tests should render with isLoading props 1`] = `
+<div
+  class="d-progress d-progress__loading"
+/>
+`;

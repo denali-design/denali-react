@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnCheckbox Tests should render correctly with custom props 1`] = `
+<div
+  class="checkbox additional--class"
+>
+  <input
+    checked=""
+    data-partial=""
+    disabled=""
+    id="checkbox1"
+    name="checkbox"
+    type="checkbox"
+  />
+  <label
+    for="checkbox1"
+  >
+    Checkbox
+  </label>
+</div>
+`;
+
+exports[`DnCheckbox Tests should render with default props: after change 1`] = `
+<div
+  class="checkbox"
+>
+  <input
+    id="checkbox1"
+    type="checkbox"
+    value=""
+  />
+  <label
+    for="checkbox1"
+  />
+</div>
+`;
+
+exports[`DnCheckbox Tests should render with default props: before change 1`] = `
+<div
+  class="checkbox"
+>
+  <input
+    id="checkbox1"
+    type="checkbox"
+    value=""
+  />
+  <label
+    for="checkbox1"
+  />
+</div>
+`;

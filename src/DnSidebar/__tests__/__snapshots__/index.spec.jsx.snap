@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnSidebar Tests should render correctly with custom props 1`] = `
+<div
+  class="tabs is-primary is-vertical tablet-down-hide-left dummy-sidebar"
+>
+  <ul>
+    <li
+      class="tabs__section-header dummy-sidebar-section-header"
+    >
+      <span>
+        SECTION HEADER
+      </span>
+    </li>
+    <li
+      class="dummy-sidebar-item"
+    >
+      <span>
+        Item 1
+      </span>
+    </li>
+    <li
+      class="is-active"
+    >
+      <span>
+        Item 2
+      </span>
+    </li>
+    <li
+      class="is-disabled"
+    >
+      <span>
+        Item 3
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Item 4
+      </span>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DnSidebar Tests should render with default props 1`] = `
+<div
+  class="tabs is-primary is-vertical"
+>
+  <ul>
+    <li
+      class="tabs__section-header"
+    >
+      <span>
+        SECTION HEADER
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Item 1
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Item 2
+      </span>
+    </li>
+    <li
+      class=""
+    >
+      <span>
+        Item 3
+      </span>
+    </li>
+  </ul>
+</div>
+`;

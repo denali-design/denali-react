@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnSelect Tests should render correctly with custom props 1`] = `
+<div
+  class="input has-arrow is-small is-inverse is-full p-18"
+>
+  <select
+    disabled=""
+  >
+    <option
+      disabled=""
+      value=""
+    >
+      -- select one --
+    </option>
+    <option
+      value="v1"
+    >
+      value 1
+    </option>
+    <option
+      value="v2"
+    >
+      value 2
+    </option>
+    <option
+      value="v3"
+    >
+      value 3
+    </option>
+  </select>
+</div>
+`;
+
+exports[`DnSelect Tests should render with default props 1`] = `
+<div
+  class="input has-arrow is-default"
+>
+  <select>
+    <option
+      disabled=""
+      value=""
+    >
+      -- select one --
+    </option>
+    <option
+      value="v1"
+    >
+      value 1
+    </option>
+    <option
+      value="v2"
+    >
+      value 2
+    </option>
+    <option
+      value="v3"
+    >
+      value 3
+    </option>
+  </select>
+</div>
+`;

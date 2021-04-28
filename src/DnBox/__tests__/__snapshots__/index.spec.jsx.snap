@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnBox Tests should render correctly with custom props 1`] = `
+<div
+  class="box p-18"
+  style="width:320px"
+>
+  <h1>
+    Title
+  </h1>
+</div>
+`;
+
+exports[`DnBox Tests should render correctly with footer 1`] = `
+<div
+  class="box p-18"
+>
+  <p>
+    This is the body
+  </p>
+  <footer>
+    This is a footer
+  </footer>
+</div>
+`;
+
+exports[`DnBox Tests should render with default props 1`] = `
+<div
+  class="box"
+>
+  <h1>
+    Title
+  </h1>
+</div>
+`;

@@ -10,7 +10,32 @@ const themeOptions = {
     DenaliDark: 'denali-dark-theme',
 };
 
-export const getThemeClassName = () => select('Theme', themeOptions, themeOptions.Denali);
+const removeThemes = () => {
+    Object.keys(themeOptions).forEach((key) => {
+        const value = themeOptions[key];
+        if (value) {
+            document.body.classList.remove(value);
+        }
+    });
+};
+
+let currentTheme = themeOptions.Denali;
+
+export const getThemeClassName = () => {
+    const themeValue = select('Theme', themeOptions, currentTheme);
+    if (themeValue !== currentTheme) {
+        if (!document.body.classList.contains(themeValue)) {
+            removeThemes();
+            if (themeValue) {
+                document.body.classList.add(themeValue);
+            }
+        }
+    }
+
+    currentTheme = themeValue;
+
+    return currentTheme;
+};
 
 // knobs tabs
 export const propsGroupId = 'Props';

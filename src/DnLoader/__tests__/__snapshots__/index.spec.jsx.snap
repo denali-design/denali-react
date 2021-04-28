@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnLoader Tests should render correctly with custom props 1`] = `
+<div
+  class="loader loader--inverse p-18"
+/>
+`;
+
+exports[`DnLoader Tests should render with default props 1`] = `
+<div
+  class="loader"
+/>
+`;

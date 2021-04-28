@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnToggle Tests should render correctly with radio item 1`] = `
+<div
+  class="toggle is-small is-inverse"
+>
+  <input
+    checked=""
+    id="Radio1"
+    name="sample"
+    type="radio"
+    value="Radio1"
+  />
+  <label
+    for="Radio1"
+  >
+    Radio 1
+  </label>
+  <input
+    id="Radio2"
+    name="sample"
+    type="radio"
+    value="Radio2"
+  />
+  <label
+    for="Radio2"
+  >
+    Radio 2
+  </label>
+  <input
+    id="Radio3"
+    name="sample"
+    type="radio"
+    value="Radio3"
+  />
+  <label
+    for="Radio3"
+  >
+    Radio 3
+  </label>
+</div>
+`;
+
+exports[`DnToggle Tests should render with custom props 1`] = `
+<div
+  class="toggle is-small is-inverse additional--class"
+>
+  <ul>
+    <li
+      class="is-active"
+    >
+      Toggle1
+    </li>
+    <li
+      class="is-disabled"
+    >
+      Toggle2
+    </li>
+    <li
+      class=""
+    >
+      Toggle3
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DnToggle Tests should render with default props 1`] = `
+<div
+  class="toggle"
+>
+  <ul>
+    <li
+      class="is-active"
+    >
+      Toggle1
+    </li>
+    <li
+      class=""
+    >
+      Toggle2
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`DnToggle Tests should render with no class names 1`] = `
+<div
+  class="toggle"
+>
+  <ul>
+    <li
+      class=""
+    >
+      Toggle1
+    </li>
+    <li
+      class=""
+    >
+      Toggle2
+    </li>
+  </ul>
+</div>
+`;

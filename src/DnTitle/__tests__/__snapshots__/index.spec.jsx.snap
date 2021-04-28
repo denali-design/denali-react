@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnTitle Tests should render correctly with custom props 1`] = `
+<div
+  class="title p-18"
+>
+  <span
+    class="bar is-wide has-bg-yellow-500"
+  />
+  <div
+    class="title-text"
+  >
+    <h3>
+      Title Element
+    </h3>
+    <h6>
+      Caption
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`DnTitle Tests should render with default props 1`] = `
+<div
+  class="title"
+>
+  <span
+    class="bar"
+  />
+  <div
+    class="title-text"
+  >
+    <h3>
+      Title Element
+    </h3>
+    <h6>
+      Caption
+    </h6>
+  </div>
+</div>
+`;

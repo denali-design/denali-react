@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnSwitch Tests should render correctly with custom props 1`] = `
+<label
+  class="switch additional--class"
+>
+  <input
+    checked=""
+    disabled=""
+    id="switch1"
+    name="canView"
+    type="checkbox"
+  />
+  <span
+    class="slider"
+  />
+  <span
+    class="off label"
+  >
+    Off
+  </span>
+  <span
+    class="on label"
+  >
+    On
+  </span>
+</label>
+`;
+
+exports[`DnSwitch Tests should render with default props: after change 1`] = `
+<label
+  class="switch"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    class="slider"
+  />
+</label>
+`;
+
+exports[`DnSwitch Tests should render with default props: before change 1`] = `
+<label
+  class="switch"
+>
+  <input
+    type="checkbox"
+  />
+  <span
+    class="slider"
+  />
+</label>
+`;
