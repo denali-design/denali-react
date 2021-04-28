@@ -6,7 +6,7 @@
 import { select } from '@storybook/addon-knobs';
 
 const themeOptions = {
-    Denali: ''
+    Denali: '',
     DenaliDark: 'denali-dark-theme',
 };
 
