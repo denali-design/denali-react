@@ -54,6 +54,8 @@ Learn more about the browsers and devices we support [here](https://denali.desig
 -   **Chrome** on Android, Windows, macOS, and Linux
 -   **Firefox** on Windows, macOS, and Linux
 -   **Safari** on iOS and macOS
+-   **IE11+** on Windows
+-   **Edge+** on Windows
 
 ## Contributing
 
