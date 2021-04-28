@@ -15,8 +15,8 @@
   "license": "MIT",
   "author": "denali@verizonmedia.com",
   "contributors": [
-    "Chas Turansky <cturansky@verizonmedia.com>",
-    "Shadi Abu Hilal <abuhilal@verizonmedia.com>",
+    "Chas Turansky <chas@turansky.net>",
+    "Shadi Abu Hilal <shadiabuhilal@gmail.com>",
     "Annapoorna Anusha Ganti <ganti.anusha2@gmail.com>"
   ],
   "main": "lib/index.js",
