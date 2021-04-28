@@ -1,0 +1,75 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.detectIndentation": false,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.autoIndent": "keep",
+    "editor.tabSize": 4,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "prettier.disableLanguages": ["json", "yaml", "css"],
+    "prettier.trailingComma": "none",
+    "javascript.preferences.quoteStyle": "single",
+    "jest.autoEnable": false,
+    "typescript.validate.enable": false,
+    "javascript.validate.enable": false,
+    "typescript.format.enable": true,
+    "javascript.format.enable": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "json.format.enable": true,
+    "[handlebars]": {
+        "editor.formatOnType": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
+    },
+    "[css]": {
+        "editor.formatOnType": false,
+        "editor.formatOnSave": false,
+        "editor.formatOnPaste": false
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "files.exclude": {
+        "ynpm-debug.log": true
+    },
+    "todo-tree.regex.regex": "((//|#|<!--|\\{!--|;|/\\*|^)\\s*($TAGS)|^\\s*- \\[ \\])",
+    "todo-tree.tree.grouped": true,
+    "todo-tree.general.tags": ["TODO", "FIXME", "IMPORTANT"],
+    "todo-tree.highlights.customHighlight": {
+        "IMPORTANT": {
+            "background": "red",
+            "iconColour": "red",
+            "foreground": "white",
+            "icon": "megaphone",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "TODO": {
+            "background": "yellow",
+            "iconColour": "yellow",
+            "foreground": "black",
+            "icon": "checklist",
+            "type": "line",
+            "gutterIcon": true
+        },
+        "FIXME": {
+            "background": "#ffa500",
+            "iconColour": "#ffa500",
+            "foreground": "black",
+            "icon": "flame",
+            "type": "line",
+            "gutterIcon": true
+        }
+    },
+    "svg.preview.background": "black"
+}
