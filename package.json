@@ -25,19 +25,20 @@
     "build": "tsc -p .",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
     "pretest": "npm run lint",
+    "test-ci": "npm run unit-test -- --ci --runInBand",
     "test": "npm run unit-test",
     "test:update": "jest --u",
     "unit-test": "jest --coverage",
     "start": "start-storybook -p 6006 --no-manager-cache",
     "build-storybook": "build-storybook",
-    "deploy-storybook": "storybook-to-ghpages --ci && npm run build",
+    "deploy-storybook": "storybook-to-ghpages",
     "pr-storybook": "build-storybook --no-dll -c .storybook -o artifacts/storybook",
     "vsc-ext": "extList=$(node ./.vscode/.export-ext.js) && code --install-extension $extList"
   },
   "peerDependencies": {
-    "react": ">=16.0.0",
+    "@denali-design/icons": "1.x",
     "denali-css": "2.x",
-    "@denali-design/icons": "1.x"
+    "react": ">=16.0.0"
   },
   "dependencies": {
     "classnames": "2.2.6"
@@ -84,6 +85,7 @@
     "prettier": "2.1.2",
     "react": "16.*.*",
     "react-dom": "16.*.*",
+    "semantic-release": "17.4.2",
     "storybook-addon-jsx": "7.3.4",
     "ts-jest": "26.4.0",
     "ts-loader": "8.0.4",
@@ -97,5 +99,23 @@
   "resolutions": {
     "ssri": "8.0.1",
     "fork-ts-checker-webpack-plugin": "4.1.6"
+  },
+  "release": {
+    "repositoryUrl": "git@github.com:denali-design/denali-react.git",
+    "branches": [
+      {
+        "name": "master",
+        "channel": "alpha",
+        "prerelease": "alpha"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "storybook-deployer": {
+    "gitUsername": "denali-bot",
+    "gitEmail": "denali@verizonmedia.com",
+    "commitMessage": "Deploy Storybook to GitHub Pages"
   }
 }
