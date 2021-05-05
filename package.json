@@ -33,7 +33,9 @@
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "pr-storybook": "build-storybook --no-dll -c .storybook -o artifacts/storybook",
-    "vsc-ext": "extList=$(node ./.vscode/.export-ext.js) && code --install-extension $extList"
+    "vsc-ext": "extList=$(node ./.vscode/.export-ext.js) && code --install-extension $extList",
+    "prepare": "husky install"
+
   },
   "peerDependencies": {
     "@denali-design/icons": "1.x",
@@ -48,6 +50,8 @@
     "@babel/plugin-transform-react-jsx": "7.10.4",
     "@babel/preset-env": "7.11.5",
     "@babel/preset-react": "7.10.4",
+    "@commitlint/cli": "12.1.1",
+    "@commitlint/config-conventional": "12.1.1",
     "@denali-design/icons": "1.0.0",
     "@storybook/addon-docs": "6.2.0",
     "@storybook/addon-knobs": "6.2.0",
@@ -78,6 +82,7 @@
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-react": "7.20.6",
     "fork-ts-checker-webpack-plugin": "5.2.0",
+    "husky": "6.0.0",
     "identity-obj-proxy": "3.0.0",
     "jest": "26.4.2",
     "jest-enzyme": "7.1.2",
