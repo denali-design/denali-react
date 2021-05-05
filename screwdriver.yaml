@@ -22,7 +22,7 @@ jobs:
             - build: yarn build
             - publish: |
                   . /tmp/ci/git-ssh.sh
-                  npx semantic-release --dry-run
+                  npx semantic-release
         secrets:
             - NPM_TOKEN
             - GH_TOKEN
