@@ -1,4 +1,4 @@
-# @denali-design/react
+# @denali-design/react [![Pipeline Status][status-image]][status-url]
 
 :construction: (WIP) React.JS Component Library for Denali CSS Framework
 
@@ -60,3 +60,6 @@ Learn more about the browsers and devices we support [here](https://denali.desig
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
+
+[status-image]: https://cd.screwdriver.cd/pipelines/7272/badge
+[status-url]: https://cd.screwdriver.cd/pipelines/7272
