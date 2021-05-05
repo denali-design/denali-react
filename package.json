@@ -103,6 +103,7 @@
   "release": {
     "repositoryUrl": "git@github.com:denali-design/denali-react.git",
     "branches": [
+      "next",
       {
         "name": "master",
         "channel": "alpha",
