@@ -10,6 +10,9 @@ jobs:
             - install: yarn install --frozen-lockfile
             - lint: yarn lint
             - test: yarn test-ci
+            - docs: |
+                  yarn build-storybook
+                  sd-step exec core/zip "zip -r $SD_ARTIFACTS_DIR/storybook.zip storybook-static"
         requires:
             - ~pr
             - ~commit
