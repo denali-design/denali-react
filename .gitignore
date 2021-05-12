@@ -62,6 +62,7 @@ typings/
 
 build
 artifacts
+storybook-static/
 temp/
 tmp/
 .tmp/
