@@ -57,9 +57,24 @@ Learn more about the browsers and devices we support [here](https://denali.desig
 -   **IE11+** on Windows
 -   **Edge** on Windows
 
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the tags on this [repository](https://github.com/denali-design/denali-react).
+
+## Maintainers
+
+-   [**Chas Turansky**](https://github.com/chasturansky)
+-   [**Shadi Abu Hilal**](https://github.com/shadiabuhilal)
+-   [**Jon Kilroy**](https://github.com/jkusa)
+-   [**Anusha Ganti**](https://github.com/anusha-66)
+
 ## Contributing
 
 See the [Contributing](CONTRIBUTING.md) guide for details.
 
 [status-image]: https://cd.screwdriver.cd/pipelines/7272/badge
 [status-url]: https://cd.screwdriver.cd/pipelines/7272
+
+## License
+
+Code licensed under the MIT license. See [LICENSE file](LICENESE.md) for terms.
