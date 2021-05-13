@@ -37,7 +37,7 @@ export default create({
     inputTextColor: 'black',
     inputBorderRadius: 4,
 
-    brandTitle: 'Link to the Denali',
-    brandUrl: 'https://denali.design',
+    brandTitle: 'Link to the Denali Github',
+    brandUrl: 'https://github.com/denali-design/denali-react',
     brandImage: denaliReactLogo,
 });
