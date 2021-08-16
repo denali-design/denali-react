@@ -39,6 +39,8 @@ export * from './DnModal';
 
 export * from './DnNavbar';
 
+export * from './DnPowerSelect';
+
 export * from './DnProgress';
 
 export * from './DnRadio';
