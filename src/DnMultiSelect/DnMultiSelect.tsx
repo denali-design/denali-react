@@ -5,22 +5,23 @@
 
 import React from 'react';
 import Select from 'react-select';
-import './DnPowerSelect.css';
+import './DnMultiSelect.css';
 
-export const DnPowerSelect: React.FC<DnPowerSelectProps> = ({
+export const DnMultiSelect: React.FC<DnMultiSelectProps> = ({
+    name,
     dataList,
     closeMenuOnSelect,
     isClearable,
     isSearchable,
     ...rest
-}: DnPowerSelectProps) => {
+}: DnMultiSelectProps) => {
     return (
         <Select
             defaultValue={dataList[0]}
             isMulti
-            name="colors"
+            name={name}
             options={dataList}
-            classNamePrefix="denali-powerselect"
+            classNamePrefix="denali-multiselect"
             closeMenuOnSelect={closeMenuOnSelect}
             isClearable={isClearable}
             isSearchable={isSearchable}
@@ -29,14 +30,16 @@ export const DnPowerSelect: React.FC<DnPowerSelectProps> = ({
     );
 };
 
-export interface DnPowerSelectProps {
-    dataList: DnPowerSelectProps[];
+export interface DnMultiSelectProps {
+    name?: string;
+    dataList: DnMultiSelectProps[];
     closeMenuOnSelect?: boolean;
     isClearable?: boolean;
     isSearchable?: boolean;
 }
 
-DnPowerSelect.defaultProps = {
+DnMultiSelect.defaultProps = {
+    name: undefined,
     closeMenuOnSelect: false,
     isClearable: false,
     isSearchable: false,

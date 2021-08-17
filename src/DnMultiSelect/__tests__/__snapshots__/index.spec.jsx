@@ -5,14 +5,14 @@
 
 import React from 'react';
 import { render } from 'enzyme';
-import { DnPowerSelect } from '../../index'; // src/index.tsx
+import { DnMultiSelect } from '../../index'; // src/index.tsx
 
-describe('DnPowerSelect Tests', () => {
+describe('DnMultiSelect Tests', () => {
     it('should render with default props', () => {
         expect.assertions(1);
 
         const rendered = render(
-            <DnPowerSelect
+            <DnMultiSelect
                 dataList={[
                     { value: 'chocolate', label: 'Chocolate' },
                     { value: 'strawberry', label: 'Strawberry' },
@@ -28,7 +28,7 @@ describe('DnPowerSelect Tests', () => {
         expect.assertions(1);
 
         const rendered = render(
-            <DnPowerSelect
+            <DnMultiSelect
                 dataList={[
                     { value: 'bread', label: 'Bread' },
                     { value: 'meat', label: 'Meat' },
@@ -49,7 +49,7 @@ describe('DnPowerSelect Tests', () => {
     it('should render with empty dataList array', () => {
         expect.assertions(1);
 
-        const rendered = render(<DnPowerSelect dataList={[]} />);
+        const rendered = render(<DnMultiSelect dataList={[]} />);
 
         expect(rendered).toMatchSnapshot();
     });

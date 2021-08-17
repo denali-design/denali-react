@@ -3,13 +3,13 @@
  * Licensed under the terms of the MIT license. See accompanying LICENSE.md file for terms.
  */
 
-.denali-powerselect__control {
+.denali-multiselect__control {
     min-height: 36px !important;
     width: auto;
     padding: 0px 10px !important;
 }
 
-.denali-powerselect .denali-powerselect__control {
+.denali-multiselect .denali-multiselect__control {
     align-items: center;
     background: rgba(1, 110, 255, 0.08) !important;
     border: none !important;
@@ -20,11 +20,11 @@
     position: relative;
 }
 
-.denali-powerselect__control--menu-is-open {
+.denali-multiselect__control--menu-is-open {
     box-shadow: 0px 2px 0px #016EFF !important;
 }
 
-.denali-powerselect .denali-powerselect__control--is-focused {
+.denali-multiselect .denali-multiselect__control--is-focused {
     align-items: center;
     background: #016eff14 !important;
     border: none !important;
@@ -37,11 +37,11 @@
     position: relative;
 }
 
-.denali-powerselect__value-container {
+.denali-multiselect__value-container {
     padding: 0% !important;
 }
 
-.denali-powerselect .denali-powerselect__control--menu-is-open {
+.denali-multiselect .denali-multiselect__control--menu-is-open {
     align-items: center;
     background: rgba(1, 110, 255, 0.08) !important;
     border: none !important;
@@ -54,7 +54,7 @@
     position: relative;
 }
 
-.denali-powerselect__multi-value__label {
+.denali-multiselect__multi-value__label {
     font-size: 1.4rem !important;
     padding: 0 !important;
     padding-left: 7px !important;
@@ -63,7 +63,7 @@
 
 /* tag remove icon */
 
-.denali-powerselect__multi-value__remove {
+.denali-multiselect__multi-value__remove {
     content: "";
     height: 20px;
     width: 20px;
@@ -74,18 +74,18 @@
     margin-left: 5px;
 }
 
-.denali-powerselect__multi-value__remove>svg {
+.denali-multiselect__multi-value__remove>svg {
     display: none;
 }
 
-.denali-powerselect__multi-value__remove:hover {
+.denali-multiselect__multi-value__remove:hover {
     background-color: transparent !important;
     cursor: pointer;
 }
 
 /* drop down arrowhead */
 
-.denali-powerselect__dropdown-indicator {
+.denali-multiselect__dropdown-indicator {
     content: "";
     height: 10px;
     width: 10px;
@@ -96,15 +96,15 @@
 }
 
 /* clear all indicator try after or before and try hiding svg*/
-.denali-powerselect__clear-indicator>svg {
+.denali-multiselect__clear-indicator>svg {
     display: none;
 }
 
-.denali-powerselect__clear-indicator:before {
+.denali-multiselect__clear-indicator:before {
     content: "Clear all";
 }
 
-.denali-powerselect__clear-indicator {
+.denali-multiselect__clear-indicator {
     display: block;
     color: #016eff !important;
     text-decoration: none;
@@ -112,17 +112,17 @@
     cursor: pointer;
 }
 
-.denali-powerselect__clear-indicator:hover {
+.denali-multiselect__clear-indicator:hover {
     color: #004cb3 !important;
 }
 
-.denali-powerselect__menu-list {
+.denali-multiselect__menu-list {
     padding: 0 !important;
     font-size: 1.4rem;
     font-family: Helvetica, "Arial", sans-serif;
 }
 
-.denali-powerselect__control {
+.denali-multiselect__control {
     align-items: center;
     background: rgba(1, 110, 255, 0.08) !important;
     border: none !important;
@@ -136,11 +136,11 @@
     position: relative;
 }
 
-.denali-powerselect__indicator-separator {
+.denali-multiselect__indicator-separator {
     display: none !important;
 }
 
-.denali-powerselect__multi-value {
+.denali-multiselect__multi-value {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -158,11 +158,11 @@
     padding: 0px 8px;
 }
 
-.denali-powerselect__multi-value__remove {
+.denali-multiselect__multi-value__remove {
     padding: 0 !important;
 }
 
-.denali-powerselect__multi-value__remove :hover {
+.denali-multiselect__multi-value__remove :hover {
     background-color: #cce2ff !important;
     color: #3d4042 !important;
     cursor: pointer;

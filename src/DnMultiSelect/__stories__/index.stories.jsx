@@ -4,9 +4,9 @@
  */
 
 import React from 'react';
-import { withKnobs, object, boolean } from '@storybook/addon-knobs';
+import { withKnobs, object, text, boolean } from '@storybook/addon-knobs';
 import { getThemeClassName, propsGroupId } from '../../../.storybook/storybook-utils';
-import { DnPowerSelect } from '../../index'; // src/index.tsx
+import { DnMultiSelect } from '../../index'; // src/index.tsx
 
 const getDataList = (value) => object('dataList', value, propsGroupId);
 
@@ -16,14 +16,16 @@ const getIsClearable = (value) => boolean('isClearable', value, propsGroupId);
 
 const getIsSearchable = (value) => boolean('isSearchable', value, propsGroupId);
 
+const getName = (value) => text('name', value, propsGroupId);
+
 export default {
-    title: 'Components/DnPowerSelect',
+    title: 'Components/DnMultiSelect',
     decorators: [withKnobs],
 };
 
 export const Default = () => {
     return (
-        <DnPowerSelect
+        <DnMultiSelect
             dataList={getDataList([
                 { value: 'chocolate', label: 'Chocolate' },
                 { value: 'strawberry', label: 'Strawberry' },
@@ -36,7 +38,8 @@ export const Default = () => {
 export const Playground = () => {
     return (
         <div className={getThemeClassName()}>
-            <DnPowerSelect
+            <DnMultiSelect
+                name={getName('groceries')}
                 dataList={getDataList([
                     { value: 'bread', label: 'Bread' },
                     { value: 'meat', label: 'Meat' },

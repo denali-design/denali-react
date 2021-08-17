@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
+exports[`DnMultiSelect Tests should render correctly with custom props 1`] = `
 <div
   class=" css-2b097c-container"
 >
@@ -11,21 +11,21 @@ exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
     class="css-1f43avz-a11yText-A11yText"
   />
   <div
-    class="denali-powerselect__control css-yk16xz-control"
+    class="denali-multiselect__control css-yk16xz-control"
   >
     <div
-      class="denali-powerselect__value-container denali-powerselect__value-container--is-multi denali-powerselect__value-container--has-value css-g1d714-ValueContainer"
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
     >
       <div
-        class="css-1rhbuit-multiValue denali-powerselect__multi-value"
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
       >
         <div
-          class="css-12jo7m5 denali-powerselect__multi-value__label"
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
         >
           Bread
         </div>
         <div
-          class="css-xb97g8 denali-powerselect__multi-value__remove"
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
         >
           <svg
             aria-hidden="true"
@@ -45,7 +45,7 @@ exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
         class="css-b8ldur-Input"
       >
         <div
-          class="denali-powerselect__input"
+          class="denali-multiselect__input"
           style="display:inline-block"
         >
           <input
@@ -67,11 +67,11 @@ exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
       </div>
     </div>
     <div
-      class="denali-powerselect__indicators css-1hb7zxy-IndicatorsContainer"
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
     >
       <div
         aria-hidden="true"
-        class="denali-powerselect__indicator denali-powerselect__clear-indicator css-tlfecz-indicatorContainer"
+        class="denali-multiselect__indicator denali-multiselect__clear-indicator css-tlfecz-indicatorContainer"
       >
         <svg
           aria-hidden="true"
@@ -87,11 +87,11 @@ exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
         </svg>
       </div>
       <span
-        class="denali-powerselect__indicator-separator css-1okebmr-indicatorSeparator"
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
       />
       <div
         aria-hidden="true"
-        class="denali-powerselect__indicator denali-powerselect__dropdown-indicator css-tlfecz-indicatorContainer"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
       >
         <svg
           aria-hidden="true"
@@ -108,17 +108,10 @@ exports[`DnPowerSelect Tests should render correctly with custom props 1`] = `
       </div>
     </div>
   </div>
-  <div>
-    <input
-      name="colors"
-      type="hidden"
-      value="bread"
-    />
-  </div>
 </div>
 `;
 
-exports[`DnPowerSelect Tests should render with default props 1`] = `
+exports[`DnMultiSelect Tests should render with default props 1`] = `
 <div
   class=" css-2b097c-container"
 >
@@ -129,21 +122,21 @@ exports[`DnPowerSelect Tests should render with default props 1`] = `
     class="css-1f43avz-a11yText-A11yText"
   />
   <div
-    class="denali-powerselect__control css-yk16xz-control"
+    class="denali-multiselect__control css-yk16xz-control"
   >
     <div
-      class="denali-powerselect__value-container denali-powerselect__value-container--is-multi denali-powerselect__value-container--has-value css-g1d714-ValueContainer"
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
     >
       <div
-        class="css-1rhbuit-multiValue denali-powerselect__multi-value"
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
       >
         <div
-          class="css-12jo7m5 denali-powerselect__multi-value__label"
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
         >
           Chocolate
         </div>
         <div
-          class="css-xb97g8 denali-powerselect__multi-value__remove"
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
         >
           <svg
             aria-hidden="true"
@@ -169,14 +162,14 @@ exports[`DnPowerSelect Tests should render with default props 1`] = `
       />
     </div>
     <div
-      class="denali-powerselect__indicators css-1hb7zxy-IndicatorsContainer"
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
     >
       <span
-        class="denali-powerselect__indicator-separator css-1okebmr-indicatorSeparator"
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
       />
       <div
         aria-hidden="true"
-        class="denali-powerselect__indicator denali-powerselect__dropdown-indicator css-tlfecz-indicatorContainer"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
       >
         <svg
           aria-hidden="true"
@@ -193,17 +186,10 @@ exports[`DnPowerSelect Tests should render with default props 1`] = `
       </div>
     </div>
   </div>
-  <div>
-    <input
-      name="colors"
-      type="hidden"
-      value="chocolate"
-    />
-  </div>
 </div>
 `;
 
-exports[`DnPowerSelect Tests should render with empty dataList array 1`] = `
+exports[`DnMultiSelect Tests should render with empty dataList array 1`] = `
 <div
   class=" css-2b097c-container"
 >
@@ -214,13 +200,13 @@ exports[`DnPowerSelect Tests should render with empty dataList array 1`] = `
     class="css-1f43avz-a11yText-A11yText"
   />
   <div
-    class="denali-powerselect__control css-yk16xz-control"
+    class="denali-multiselect__control css-yk16xz-control"
   >
     <div
-      class="denali-powerselect__value-container denali-powerselect__value-container--is-multi css-g1d714-ValueContainer"
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi css-g1d714-ValueContainer"
     >
       <div
-        class="denali-powerselect__placeholder css-1wa3eu0-placeholder"
+        class="denali-multiselect__placeholder css-1wa3eu0-placeholder"
       >
         Select...
       </div>
@@ -234,14 +220,14 @@ exports[`DnPowerSelect Tests should render with empty dataList array 1`] = `
       />
     </div>
     <div
-      class="denali-powerselect__indicators css-1hb7zxy-IndicatorsContainer"
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
     >
       <span
-        class="denali-powerselect__indicator-separator css-1okebmr-indicatorSeparator"
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
       />
       <div
         aria-hidden="true"
-        class="denali-powerselect__indicator denali-powerselect__dropdown-indicator css-tlfecz-indicatorContainer"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
       >
         <svg
           aria-hidden="true"
@@ -257,12 +243,6 @@ exports[`DnPowerSelect Tests should render with empty dataList array 1`] = `
         </svg>
       </div>
     </div>
-  </div>
-  <div>
-    <input
-      name="colors"
-      type="hidden"
-    />
   </div>
 </div>
 `;
