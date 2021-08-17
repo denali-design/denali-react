@@ -45,4 +45,12 @@ describe('DnPowerSelect Tests', () => {
 
         expect(rendered).toMatchSnapshot();
     });
+
+    it('should render with empty dataList array', () => {
+        expect.assertions(1);
+
+        const rendered = render(<DnPowerSelect dataList={[]} />);
+
+        expect(rendered).toMatchSnapshot();
+    });
 });

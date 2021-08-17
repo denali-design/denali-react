@@ -3,21 +3,14 @@
  * Licensed under the terms of the MIT license. See accompanying LICENSE.md file for terms.
  */
 
-.denali-powerselect{
-  width: auto !important;
-  min-height: 36px !important;
-  margin-top: 300px;
-  margin-left: 50px;
-}
-
-.denali-powerselect__control{
+.denali-powerselect__control {
     min-height: 36px !important;
-    width: auto !important;
+    width: auto;
     padding: 0px 10px !important;
 }
 
 .denali-powerselect .denali-powerselect__control {
-  align-items: center;
+    align-items: center;
     background: rgba(1, 110, 255, 0.08) !important;
     border: none !important;
     border-radius: 4px;
@@ -27,117 +20,110 @@
     position: relative;
 }
 
-.denali-powerselect__control--menu-is-open{
+.denali-powerselect__control--menu-is-open {
     box-shadow: 0px 2px 0px #016EFF !important;
 }
 
 .denali-powerselect .denali-powerselect__control--is-focused {
-  align-items: center;
-  background: #016eff14 !important;
-  border: none !important;
-  border-radius: 4px;
-  color: #303030;
-  display: flex;
-  min-height: 36px;
-  outline: none;
-  padding: 2px 25px 2px 10px;
-  position: relative;
+    align-items: center;
+    background: #016eff14 !important;
+    border: none !important;
+    border-radius: 4px;
+    color: #303030;
+    display: flex;
+    min-height: 36px;
+    outline: none;
+    padding: 2px 25px 2px 10px;
+    position: relative;
 }
 
-.denali-powerselect__value-container{
-padding: 0% !important;
-} 
-
-
-.denali-powerselect .denali-powerselect__control--menu-is-open{
-  align-items: center;
-  background: rgba(1, 110, 255, 0.08) !important;
-  border: none !important;
-  border-radius: 4px;
-  color: #303030;
-  display: flex;
-  min-height: 36px;
-  outline: none;
-  padding: 2px 25px 2px 10px;
-  position: relative;
+.denali-powerselect__value-container {
+    padding: 0% !important;
 }
 
-.denali-powerselect__multi-value__label{
+.denali-powerselect .denali-powerselect__control--menu-is-open {
+    align-items: center;
+    background: rgba(1, 110, 255, 0.08) !important;
+    border: none !important;
+    border-radius: 4px;
+    color: #303030;
+    display: flex;
+    min-height: 36px;
+    outline: none;
+    padding: 2px 25px 2px 10px;
+    position: relative;
+}
+
+.denali-powerselect__multi-value__label {
     font-size: 1.4rem !important;
     padding: 0 !important;
-    padding-left: 5px !important;
+    padding-left: 7px !important;
     margin: 0;
 }
 
 /* tag remove icon */
+
 .denali-powerselect__multi-value__remove {
-content: "";
-      height: 20px;
-      width: 20px;
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICA8dGl0bGU+Y2xvc2U8L3RpdGxlPgogIDxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPgogICAgPGcgaWQ9ImludmlzaWJsZV9ib3giIGRhdGEtbmFtZT0iaW52aXNpYmxlIGJveCI+CiAgICAgIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGcgaWQ9Imljb25zX1EyIiBkYXRhLW5hbWU9Imljb25zIFEyIiBmaWxsPSIjNjA2MDYwIj4KICAgICAgPHBhdGggZD0iTTI2LjgsMjQsMzcuNCwxMy41YTIuMSwyLjEsMCwwLDAsLjItMi43LDEuOSwxLjksMCwwLDAtMy0uMkwyNCwyMS4yLDEzLjQsMTAuNmExLjksMS45LDAsMCwwLTMsLjIsMi4xLDIuMSwwLDAsMCwuMiwyLjdMMjEuMiwyNCwxMC42LDM0LjVhMi4xLDIuMSwwLDAsMC0uMiwyLjcsMS45LDEuOSwwLDAsMCwzLC4yTDI0LDI2LjgsMzQuNiwzNy40YTEuOSwxLjksMCwwLDAsMy0uMiwyLjEsMi4xLDAsMCwwLS4yLTIuN1oiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=);
-      background-repeat: no-repeat;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICA8dGl0bGU+Y2xvc2U8L3RpdGxlPgogIDxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPgogICAgPGcgaWQ9ImludmlzaWJsZV9ib3giIGRhdGEtbmFtZT0iaW52aXNpYmxlIGJveCI+CiAgICAgIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGcgaWQ9Imljb25zX1EyIiBkYXRhLW5hbWU9Imljb25zIFEyIiBmaWxsPSIjNjA2MDYwIj4KICAgICAgPHBhdGggZD0iTTI2LjgsMjQsMzcuNCwxMy41YTIuMSwyLjEsMCwwLDAsLjItMi43LDEuOSwxLjksMCwwLDAtMy0uMkwyNCwyMS4yLDEzLjQsMTAuNmExLjksMS45LDAsMCwwLTMsLjIsMi4xLDIuMSwwLDAsMCwuMiwyLjdMMjEuMiwyNCwxMC42LDM0LjVhMi4xLDIuMSwwLDAsMC0uMiwyLjcsMS45LDEuOSwwLDAsMCwzLC4yTDI0LDI2LjgsMzQuNiwzNy40YTEuOSwxLjksMCwwLDAsMy0uMiwyLjEsMi4xLDAsMCwwLS4yLTIuN1oiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPgo=);
+    background-repeat: no-repeat;
     background-size: 14px;
     margin-top: 6px;
     margin-left: 5px;
-      
 }
 
-.denali-powerselect__multi-value__remove > svg  {
+.denali-powerselect__multi-value__remove>svg {
     display: none;
 }
 
 .denali-powerselect__multi-value__remove:hover {
-    background-color: transparent !important ;
+    background-color: transparent !important;
     cursor: pointer;
 }
 
-
-
 /* drop down arrowhead */
-.denali-powerselect__dropdown-indicator{
+
+.denali-powerselect__dropdown-indicator {
     content: "";
-      height: 10px;
-      width: 10px;
-      right: 10px;
-      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICA8dGl0bGU+YXJyb3doZWFkLWRvd248L3RpdGxlPgogIDxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPgogICAgPGcgaWQ9ImludmlzaWJsZV9ib3giIGRhdGEtbmFtZT0iaW52aXNpYmxlIGJveCI+CiAgICAgIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGcgaWQ9Imljb25zX1EyIiBkYXRhLW5hbWU9Imljb25zIFEyIj4KICAgICAgPHBhdGggZmlsbD0iIzYwNjA2MCIgZD0iTTI0LDI3LjIsMTMuNCwxNi42YTEuOSwxLjksMCwwLDAtMywuMiwyLjEsMi4xLDAsMCwwLC4yLDIuN2wxMiwxMS45YTEuOSwxLjksMCwwLDAsMi44LDBsMTItMTEuOWEyLjEsMi4xLDAsMCwwLC4yLTIuNywxLjksMS45LDAsMCwwLTMtLjJaIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K);
-      background-repeat: no-repeat;
-      background-size: 15px;
+    height: 10px;
+    width: 10px;
+    right: 10px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij4KICA8dGl0bGU+YXJyb3doZWFkLWRvd248L3RpdGxlPgogIDxnIGlkPSJMYXllcl8yIiBkYXRhLW5hbWU9IkxheWVyIDIiPgogICAgPGcgaWQ9ImludmlzaWJsZV9ib3giIGRhdGEtbmFtZT0iaW52aXNpYmxlIGJveCI+CiAgICAgIDxyZWN0IHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgZmlsbD0ibm9uZSIvPgogICAgPC9nPgogICAgPGcgaWQ9Imljb25zX1EyIiBkYXRhLW5hbWU9Imljb25zIFEyIj4KICAgICAgPHBhdGggZmlsbD0iIzYwNjA2MCIgZD0iTTI0LDI3LjIsMTMuNCwxNi42YTEuOSwxLjksMCwwLDAtMywuMiwyLjEsMi4xLDAsMCwwLC4yLDIuN2wxMiwxMS45YTEuOSwxLjksMCwwLDAsMi44LDBsMTItMTEuOWEyLjEsMi4xLDAsMCwwLC4yLTIuNywxLjksMS45LDAsMCwwLTMtLjJaIi8+CiAgICA8L2c+CiAgPC9nPgo8L3N2Zz4K);
+    background-repeat: no-repeat;
+    background-size: 15px;
 }
 
 /* clear all indicator try after or before and try hiding svg*/
-.denali-powerselect__clear-indicator > svg{
-display: none;
-
+.denali-powerselect__clear-indicator>svg {
+    display: none;
 }
 
-.denali-powerselect__clear-indicator:before{
+.denali-powerselect__clear-indicator:before {
     content: "Clear all";
 }
 
-
-.denali-powerselect__clear-indicator{
-  display: block;
-  color: #016eff !important;
+.denali-powerselect__clear-indicator {
+    display: block;
+    color: #016eff !important;
     text-decoration: none;
     font-size: inherit;
     cursor: pointer;
 }
 
-.denali-powerselect__clear-indicator:hover{
- 
-  color: #004cb3 !important;
+.denali-powerselect__clear-indicator:hover {
+    color: #004cb3 !important;
 }
 
-    
-
-.denali-powerselect__menu-list{
-padding: 0 !important;
-font-size: 1.4rem;
-  font-family: Helvetica,"Arial",sans-serif;
+.denali-powerselect__menu-list {
+    padding: 0 !important;
+    font-size: 1.4rem;
+    font-family: Helvetica, "Arial", sans-serif;
 }
 
-.denali-powerselect__control{
-  align-items: center;
+.denali-powerselect__control {
+    align-items: center;
     background: rgba(1, 110, 255, 0.08) !important;
     border: none !important;
     border-radius: 4px;
@@ -150,36 +136,34 @@ font-size: 1.4rem;
     position: relative;
 }
 
-.denali-powerselect__indicator-separator{
-  display:none !important;
-} 
-
+.denali-powerselect__indicator-separator {
+    display: none !important;
+}
 
 .denali-powerselect__multi-value {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 10px;
-  height: 28px;
-  margin: 3px;
-  background-color: #CCE2FF !important;
-  color: #303030;
-  border-radius: 9999px !important;
-  white-space: nowrap;
-  transition: 300ms;
-  font-size: 1.2rem;
-  font-family: Helvetica,"Arial",sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px;
+    height: 28px;
+    margin: 3px;
+    background-color: #CCE2FF !important;
+    color: #303030;
+    border-radius: 9999px !important;
+    white-space: nowrap;
+    transition: 300ms;
+    font-size: 1.2rem;
+    font-family: Helvetica, "Arial", sans-serif;
     height: 22px;
     padding: 0px 8px;
 }
 
-.denali-powerselect__multi-value__remove{
+.denali-powerselect__multi-value__remove {
     padding: 0 !important;
 }
 
-.denali-powerselect__multi-value__remove :hover{
+.denali-powerselect__multi-value__remove :hover {
     background-color: #cce2ff !important;
     color: #3d4042 !important;
     cursor: pointer;
-    
 }
