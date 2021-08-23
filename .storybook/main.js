@@ -16,6 +16,7 @@ module.exports = {
         '@storybook/addon-links',
         '@storybook/addon-viewport/register',
         '@storybook/addon-docs',
+        '@storybook/addon-actions',
         // TODO: add @storybook/addon-backgrounds
     ],
 };
