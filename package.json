@@ -35,7 +35,6 @@
     "pr-storybook": "build-storybook --no-dll -c .storybook -o artifacts/storybook",
     "vsc-ext": "extList=$(node ./.vscode/.export-ext.js) && code --install-extension $extList",
     "prepare": "husky install"
-
   },
   "peerDependencies": {
     "@denali-design/icons": "1.x",
@@ -54,6 +53,7 @@
     "@commitlint/config-conventional": "12.1.1",
     "@denali-design/icons": "1.0.0",
     "@semantic-release/changelog": "5.0.1",
+    "@storybook/addon-actions": "6.3.7",
     "@storybook/addon-docs": "6.2.0",
     "@storybook/addon-knobs": "6.2.0",
     "@storybook/addon-links": "6.2.0",

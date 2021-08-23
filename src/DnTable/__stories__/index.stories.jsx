@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { withKnobs, boolean, select } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import { getThemeClassName, propsGroupId } from '../../../.storybook/storybook-utils';
 import { DnTable, DnTableDataPositions, DnTableSortDirections } from '../../index'; // src/index.tsx
 
@@ -32,25 +33,31 @@ export const Default = () => {
     return (
         <DnTable>
             <DnTable.Header>
-                <DnTable.HeaderCell>Date</DnTable.HeaderCell>
-                <DnTable.HeaderCell>Time</DnTable.HeaderCell>
-                <DnTable.HeaderCell>User</DnTable.HeaderCell>
-                <DnTable.HeaderCell>Role</DnTable.HeaderCell>
-                <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                <DnTable.Row>
+                    <DnTable.HeaderCell>Date</DnTable.HeaderCell>
+                    <DnTable.HeaderCell>Time</DnTable.HeaderCell>
+                    <DnTable.HeaderCell>User</DnTable.HeaderCell>
+                    <DnTable.HeaderCell>Role</DnTable.HeaderCell>
+                    <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                </DnTable.Row>
             </DnTable.Header>
             <DnTable.Body>
-                <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                <DnTable.Row>
+                    <DnTable.Cell>04/14/2017</DnTable.Cell>
+                    <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                    <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                    <DnTable.Cell>Admin</DnTable.Cell>
+                    <DnTable.Cell>jira123</DnTable.Cell>
+                </DnTable.Row>
             </DnTable.Body>
             <DnTable.Footer>
-                <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                <DnTable.Row>
+                    <DnTable.Cell>04/14/2017</DnTable.Cell>
+                    <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                    <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                    <DnTable.Cell>Admin</DnTable.Cell>
+                    <DnTable.Cell>jira123</DnTable.Cell>
+                </DnTable.Row>
             </DnTable.Footer>
         </DnTable>
     );
@@ -59,50 +66,61 @@ export const Default = () => {
 export const Playground = () => {
     return (
         <div className={getThemeClassName()}>
-            <DnTable isStriped={getIsStriped()} isCards={getIsCards()} isFrozen={getIsFrozen()}>
-                <DnTable.Header>
-                    <DnTable.HeaderCell position={getPosition(DnTableDataPositions.right)}>Date</DnTable.HeaderCell>
-                    <DnTable.HeaderCell isMono={getIsMono()}>Time</DnTable.HeaderCell>
-                    <DnTable.HeaderCell
-                        isSorted={getIsSorted()}
-                        sortDirection={getSortDirection(DnTableSortDirections.ascend)}
-                    >
-                        User
-                    </DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Role</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+            <DnTable
+                isStriped={getIsStriped()}
+                isCards={getIsCards()}
+                isFrozen={getIsFrozen()}
+                onClick={action('table-click')}
+            >
+                <DnTable.Header onClick={action('header-click')}>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell position={getPosition(DnTableDataPositions.right)}>Date</DnTable.HeaderCell>
+                        <DnTable.HeaderCell isMono={getIsMono()}>Time</DnTable.HeaderCell>
+                        <DnTable.HeaderCell
+                            isSorted={getIsSorted()}
+                            sortDirection={getSortDirection(DnTableSortDirections.ascend)}
+                        >
+                            User
+                        </DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Role</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                    </DnTable.Row>
                 </DnTable.Header>
-                <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                <DnTable.Body onClick={action('body-click')}>
+                    <DnTable.Row onClick={action('row-click')}>
+                        <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell onClick={action('cell-click')}>04/14/2017</DnTable.HeaderCell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Body>
-                <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
-                </DnTable.Body>
-                <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
-                </DnTable.Body>
-                <DnTable.Footer>
-                    <DnTable.HeaderCell>
-                        <a href="#footer">Footer</a>
-                    </DnTable.HeaderCell>
-                    <DnTable.BodyCell>
-                        <a href="#greyList">pes.acl.greylist</a>
-                    </DnTable.BodyCell>
-                    <DnTable.BodyCell>Foo Turansky</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                <DnTable.Footer onClick={action('footer-click')}>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell>
+                            <a href="#footer">Footer</a>
+                        </DnTable.HeaderCell>
+                        <DnTable.Cell>
+                            <a href="#greyList">pes.acl.greylist</a>
+                        </DnTable.Cell>
+                        <DnTable.Cell>Foo Turansky</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Footer>
             </DnTable>
         </div>

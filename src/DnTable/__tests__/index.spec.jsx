@@ -35,25 +35,31 @@ describe('DnTable Tests', () => {
         const rendered = render(
             <DnTable>
                 <DnTable.Header>
-                    <DnTable.HeaderCell>Date</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Time</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>User</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Role</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell>Date</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Time</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>User</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Role</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                    </DnTable.Row>
                 </DnTable.Header>
                 <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Body>
                 <DnTable.Footer>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                    <DnTable.Row>
+                        <DnTable.Cell>04/14/2017</DnTable.Cell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Footer>
             </DnTable>,
         );
@@ -67,45 +73,51 @@ describe('DnTable Tests', () => {
         const rendered = render(
             <DnTable isStriped isCards isFrozen>
                 <DnTable.Header>
-                    <DnTable.HeaderCell position={DnTableDataPositions.right}>Date</DnTable.HeaderCell>
-                    <DnTable.HeaderCell isMono>Time</DnTable.HeaderCell>
-                    <DnTable.HeaderCell isSorted sortDirection={DnTableSortDirections.ascend}>
-                        User
-                    </DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Role</DnTable.HeaderCell>
-                    <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                    <DnTable.Row>
+                        <DnTable.HeaderCell position={DnTableDataPositions.right}>Date</DnTable.HeaderCell>
+                        <DnTable.HeaderCell isMono>Time</DnTable.HeaderCell>
+                        <DnTable.HeaderCell isSorted sortDirection={DnTableSortDirections.ascend}>
+                            User
+                        </DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Role</DnTable.HeaderCell>
+                        <DnTable.HeaderCell>Cause</DnTable.HeaderCell>
+                    </DnTable.Row>
                 </DnTable.Header>
                 <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
-                </DnTable.Body>
-                <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
-                </DnTable.Body>
-                <DnTable.Body>
-                    <DnTable.HeaderCell>04/14/2017</DnTable.HeaderCell>
-                    <DnTable.BodyCell>19:34 PDT</DnTable.BodyCell>
-                    <DnTable.BodyCell>yby.jupiter</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                    <DnTable.Row>
+                        <DnTable.Cell>04/14/2017</DnTable.Cell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
+                    <DnTable.Row>
+                        <DnTable.Cell>04/14/2017</DnTable.Cell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
+                    <DnTable.Row>
+                        <DnTable.Cell>04/14/2017</DnTable.Cell>
+                        <DnTable.Cell>19:34 PDT</DnTable.Cell>
+                        <DnTable.Cell>yby.jupiter</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Body>
                 <DnTable.Footer>
-                    <DnTable.HeaderCell>
-                        <a href="#footer">Footer</a>
-                    </DnTable.HeaderCell>
-                    <DnTable.BodyCell>
-                        <a href="#greylist">pes.acl.greylist</a>
-                    </DnTable.BodyCell>
-                    <DnTable.BodyCell>Foo Turansky</DnTable.BodyCell>
-                    <DnTable.BodyCell>Admin</DnTable.BodyCell>
-                    <DnTable.BodyCell>jira123</DnTable.BodyCell>
+                    <DnTable.Row>
+                        <DnTable.Cell>
+                            <a href="#footer">Footer</a>
+                        </DnTable.Cell>
+                        <DnTable.Cell>
+                            <a href="#greylist">pes.acl.greylist</a>
+                        </DnTable.Cell>
+                        <DnTable.Cell>Foo Turansky</DnTable.Cell>
+                        <DnTable.Cell>Admin</DnTable.Cell>
+                        <DnTable.Cell>jira123</DnTable.Cell>
+                    </DnTable.Row>
                 </DnTable.Footer>
             </DnTable>,
         );

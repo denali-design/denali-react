@@ -1,5 +1,5 @@
 /**
- * Copyright 2020, Verizon Media
+ * Copyright 2021, Verizon Media
  * Licensed under the terms of the MIT license. See accompanying LICENSE.md file for terms.
  */
 
@@ -46,11 +46,11 @@ DnTable.defaultProps = {
     isFrozen: false,
 };
 
-const DnTableHeader = ({ children }: DnTableHeaderProps): JSX.Element => {
+// DnTableHeader
+
+const DnTableHeader = ({ children, ...rest }: DnTableHeaderProps): JSX.Element => {
     return (
-        <thead>
-            <tr>{children}</tr>
-        </thead>
+        <thead {...rest} >{children}</thead>
     );
 };
 
@@ -64,11 +64,11 @@ DnTableHeader.defaultProps = {
     children: null,
 };
 
-const DnTableBody = ({ children }: DnTableBodyProps): JSX.Element => {
+// DnTableBody
+
+const DnTableBody = ({ children, ...rest }: DnTableBodyProps): JSX.Element => {
     return (
-        <tbody>
-            <tr>{children}</tr>
-        </tbody>
+        <tbody {...rest} >{children}</tbody>
     );
 };
 
@@ -82,11 +82,29 @@ DnTableBody.defaultProps = {
     children: null,
 };
 
-const DnTableFooter = ({ children }: DnTableFooterProps): JSX.Element => {
+// DnTableRow
+
+const DnTableRow = ({ children, ...rest }: DnTableRowProps): JSX.Element => {
     return (
-        <tfoot>
-            <tr>{children}</tr>
-        </tfoot>
+        <tr {...rest} >{children}</tr>
+    );
+};
+
+DnTable.Row = DnTableRow;
+
+export interface DnTableRowProps {
+    children: React.ReactNode;
+}
+
+DnTableRow.defaultProps = {
+    children: null,
+};
+
+// DnTableFooter
+
+const DnTableFooter = ({ children, ...rest }: DnTableFooterProps): JSX.Element => {
+    return (
+        <tfoot {...rest} >{children}</tfoot>
     );
 };
 
@@ -99,6 +117,8 @@ export interface DnTableFooterProps {
 DnTableFooter.defaultProps = {
     children: null,
 };
+
+// DnTableHeaderCell
 
 const DnTableHeaderCell = ({
     position,
@@ -159,7 +179,9 @@ DnTableHeaderCell.defaultProps = {
     isMono: false,
 };
 
-const DnTableBodyCell = ({ position, isMono, className, children, ...rest }: DnTableBodyCellProps): JSX.Element => {
+// DnTableCell
+
+const DnTableCell = ({ position, isMono, className, children, ...rest }: DnTableCellProps): JSX.Element => {
     return (
         <td
             className={classnames(
@@ -176,16 +198,16 @@ const DnTableBodyCell = ({ position, isMono, className, children, ...rest }: DnT
     );
 };
 
-DnTable.BodyCell = DnTableBodyCell;
+DnTable.Cell = DnTableCell;
 
-export interface DnTableBodyCellProps {
+export interface DnTableCellProps {
     children: React.ReactNode;
     className?: string;
     position: DnTableDataPositions;
     isMono: boolean;
 }
 
-DnTableBodyCell.defaultProps = {
+DnTableCell.defaultProps = {
     children: null,
     className: undefined,
     position: DnTableDataPositions.default,
