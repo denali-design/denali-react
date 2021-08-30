@@ -123,7 +123,7 @@
         "@semantic-release/changelog",
         "@semantic-release/npm",
         ["@semantic-release/github", {
-            "assets": ["package.json", "package-lock.json", "CHANGELOG.md"]
+            "assets": ["package.json", "yarn.lock", "CHANGELOG.md"]
         }]
     ]
   },
