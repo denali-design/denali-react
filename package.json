@@ -53,6 +53,7 @@
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
     "@denali-design/icons": "1.0.0",
+    "@semantic-release/changelog": "5.0.1",
     "@storybook/addon-docs": "6.2.0",
     "@storybook/addon-knobs": "6.2.0",
     "@storybook/addon-links": "6.2.0",
@@ -114,6 +115,15 @@
         "channel": "alpha",
         "prerelease": "alpha"
       }
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        ["@semantic-release/github", {
+            "assets": ["package.json", "package-lock.json", "CHANGELOG.md"]
+        }]
     ]
   },
   "publishConfig": {
