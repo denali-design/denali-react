@@ -1,0 +1,944 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DnMultiSelect Tests should call on change correctly: After Menu open 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control denali-multiselect__control--menu-is-open css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="denali-multiselect__menu css-26l3qy-menu"
+  >
+    <div
+      class="denali-multiselect__menu-list denali-multiselect__menu-list--is-multi css-4ljt47-MenuList"
+    >
+      <div
+        class="denali-multiselect__option denali-multiselect__option--is-focused css-1n7v3ny-option"
+        id="react-select-5-option-1"
+        tabindex="-1"
+      >
+        Strawberry
+      </div>
+      <div
+        class="denali-multiselect__option css-yt9ioa-option"
+        id="react-select-5-option-2"
+        tabindex="-1"
+      >
+        Vanilla
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should call on change correctly: Before Menu open 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should call on change correctly: Menu when no options left to select 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control denali-multiselect__control--menu-is-open css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Strawberry
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Vanilla
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="denali-multiselect__menu css-26l3qy-menu"
+  >
+    <div
+      class="denali-multiselect__menu-list denali-multiselect__menu-list--is-multi css-4ljt47-MenuList"
+    >
+      <div
+        class="denali-multiselect__menu-notice denali-multiselect__menu-notice--no-options css-gg45go-NoOptionsMessage"
+      >
+        No options
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should call on change correctly: Selected Strawberry item 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control denali-multiselect__control--menu-is-open css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Strawberry
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="denali-multiselect__menu css-26l3qy-menu"
+  >
+    <div
+      class="denali-multiselect__menu-list denali-multiselect__menu-list--is-multi css-4ljt47-MenuList"
+    >
+      <div
+        class="denali-multiselect__option denali-multiselect__option--is-focused css-1n7v3ny-option"
+        id="react-select-5-option-2"
+        tabindex="-1"
+      >
+        Vanilla
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should call on change correctly: Selecting Vanilla item 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control denali-multiselect__control--menu-is-open css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Strawberry
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Vanilla
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="denali-multiselect__menu css-26l3qy-menu"
+  >
+    <div
+      class="denali-multiselect__menu-list denali-multiselect__menu-list--is-multi css-4ljt47-MenuList"
+    >
+      <div
+        class="denali-multiselect__menu-notice denali-multiselect__menu-notice--no-options css-gg45go-NoOptionsMessage"
+      >
+        No options
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should call on change correctly: removing chocolate item 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control denali-multiselect__control--menu-is-open css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Strawberry
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Vanilla
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-5-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    class="denali-multiselect__menu css-26l3qy-menu"
+  >
+    <div
+      class="denali-multiselect__menu-list denali-multiselect__menu-list--is-multi css-4ljt47-MenuList"
+    >
+      <div
+        class="denali-multiselect__option denali-multiselect__option--is-focused css-1n7v3ny-option"
+        id="react-select-5-option-0"
+        tabindex="-1"
+      >
+        Chocolate
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should render correctly with custom props 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Bread
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div
+        class="css-b8ldur-Input"
+      >
+        <div
+          class="denali-multiselect__input"
+          style="display:inline-block"
+        >
+          <input
+            aria-autocomplete="list"
+            autocapitalize="none"
+            autocomplete="off"
+            autocorrect="off"
+            id="react-select-3-input"
+            spellcheck="false"
+            style="box-sizing:content-box;width:1px;label:input;background:0;border:0;font-size:inherit;opacity:1;outline:0;padding:0;color:inherit"
+            tabindex="0"
+            type="text"
+            value=""
+          />
+          <div
+            style="position:absolute;top:0;left:0;visibility:hidden;height:0;overflow:scroll;white-space:pre"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__clear-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+          />
+        </svg>
+      </div>
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should render with default props 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi denali-multiselect__value-container--has-value css-g1d714-ValueContainer"
+    >
+      <div
+        class="css-1rhbuit-multiValue denali-multiselect__multi-value"
+      >
+        <div
+          class="css-12jo7m5 denali-multiselect__multi-value__label"
+        >
+          Chocolate
+        </div>
+        <div
+          class="css-xb97g8 denali-multiselect__multi-value__remove"
+        >
+          <svg
+            aria-hidden="true"
+            class="css-tj5bde-Svg"
+            focusable="false"
+            height="14"
+            viewBox="0 0 20 20"
+            width="14"
+          >
+            <path
+              d="M14.348 14.849c-0.469 0.469-1.229 0.469-1.697 0l-2.651-3.030-2.651 3.029c-0.469 0.469-1.229 0.469-1.697 0-0.469-0.469-0.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-0.469-0.469-0.469-1.228 0-1.697s1.228-0.469 1.697 0l2.652 3.031 2.651-3.031c0.469-0.469 1.228-0.469 1.697 0s0.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c0.469 0.469 0.469 1.229 0 1.698z"
+            />
+          </svg>
+        </div>
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-2-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DnMultiSelect Tests should render with empty dataList array 1`] = `
+<div
+  class=" css-2b097c-container"
+>
+  <span
+    aria-atomic="false"
+    aria-live="polite"
+    aria-relevant="additions text"
+    class="css-1f43avz-a11yText-A11yText"
+  />
+  <div
+    class="denali-multiselect__control css-yk16xz-control"
+  >
+    <div
+      class="denali-multiselect__value-container denali-multiselect__value-container--is-multi css-g1d714-ValueContainer"
+    >
+      <div
+        class="denali-multiselect__placeholder css-1wa3eu0-placeholder"
+      >
+        Select...
+      </div>
+      <input
+        aria-autocomplete="list"
+        class="css-wmatm6-dummyInput-DummyInput"
+        id="react-select-4-input"
+        readonly=""
+        tabindex="0"
+        value=""
+      />
+    </div>
+    <div
+      class="denali-multiselect__indicators css-1hb7zxy-IndicatorsContainer"
+    >
+      <span
+        class="denali-multiselect__indicator-separator css-1okebmr-indicatorSeparator"
+      />
+      <div
+        aria-hidden="true"
+        class="denali-multiselect__indicator denali-multiselect__dropdown-indicator css-tlfecz-indicatorContainer"
+      >
+        <svg
+          aria-hidden="true"
+          class="css-tj5bde-Svg"
+          focusable="false"
+          height="20"
+          viewBox="0 0 20 20"
+          width="20"
+        >
+          <path
+            d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

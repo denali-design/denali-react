@@ -17,7 +17,7 @@ export const DnMultiSelect: React.FC<DnMultiSelectProps> = ({
 }: DnMultiSelectProps) => {
     return (
         <Select
-            defaultValue={dataList[0]}
+            defaultValue={dataList && dataList[0]}
             isMulti
             name={name}
             options={dataList}
