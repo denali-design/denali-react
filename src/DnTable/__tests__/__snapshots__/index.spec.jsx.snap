@@ -38,11 +38,11 @@ exports[`DnTable Tests should render correctly with custom props 1`] = `
     </thead>
     <tbody>
       <tr>
-        <th
+        <td
           class="is-default"
         >
           04/14/2017
-        </th>
+        </td>
         <td
           class="is-default"
         >
@@ -64,14 +64,12 @@ exports[`DnTable Tests should render correctly with custom props 1`] = `
           jira123
         </td>
       </tr>
-    </tbody>
-    <tbody>
       <tr>
-        <th
+        <td
           class="is-default"
         >
           04/14/2017
-        </th>
+        </td>
         <td
           class="is-default"
         >
@@ -93,14 +91,12 @@ exports[`DnTable Tests should render correctly with custom props 1`] = `
           jira123
         </td>
       </tr>
-    </tbody>
-    <tbody>
       <tr>
-        <th
+        <td
           class="is-default"
         >
           04/14/2017
-        </th>
+        </td>
         <td
           class="is-default"
         >
@@ -125,7 +121,7 @@ exports[`DnTable Tests should render correctly with custom props 1`] = `
     </tbody>
     <tfoot>
       <tr>
-        <th
+        <td
           class="is-default"
         >
           <a
@@ -133,7 +129,7 @@ exports[`DnTable Tests should render correctly with custom props 1`] = `
           >
             Footer
           </a>
-        </th>
+        </td>
         <td
           class="is-default"
         >
@@ -228,11 +224,11 @@ exports[`DnTable Tests should render with default props 1`] = `
   </tbody>
   <tfoot>
     <tr>
-      <th
+      <td
         class="is-default"
       >
         04/14/2017
-      </th>
+      </td>
       <td
         class="is-default"
       >

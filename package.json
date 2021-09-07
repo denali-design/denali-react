@@ -53,6 +53,8 @@
     "@commitlint/cli": "12.1.1",
     "@commitlint/config-conventional": "12.1.1",
     "@denali-design/icons": "1.0.0",
+    "@semantic-release/changelog": "5.0.1",
+    "@storybook/addon-actions": "6.3.7",
     "@storybook/addon-docs": "6.2.0",
     "@storybook/addon-knobs": "6.2.0",
     "@storybook/addon-links": "6.2.0",
@@ -69,6 +71,7 @@
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "babel-loader": "8.1.0",
+    "cz-conventional-changelog": "3.3.0",
     "denali-css": "2.3.2",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.4",
@@ -115,6 +118,15 @@
         "channel": "alpha",
         "prerelease": "alpha"
       }
+    ],
+    "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/changelog",
+        "@semantic-release/npm",
+        ["@semantic-release/github", {
+            "assets": ["package.json", "yarn.lock", "CHANGELOG.md"]
+        }]
     ]
   },
   "publishConfig": {
@@ -124,5 +136,10 @@
     "gitUsername": "denali-bot",
     "gitEmail": "denali@verizonmedia.com",
     "commitMessage": "Deploy Storybook to GitHub Pages"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
