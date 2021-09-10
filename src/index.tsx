@@ -37,6 +37,8 @@ export * from './DnMenu';
 
 export * from './DnModal';
 
+export * from './DnMultiSelect';
+
 export * from './DnNavbar';
 
 export * from './DnProgress';
