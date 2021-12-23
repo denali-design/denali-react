@@ -77,3 +77,6 @@ lib/
 
 # ignore package.lock.json
 package-lock.json
+
+# interplay 
+.interplay/*/
