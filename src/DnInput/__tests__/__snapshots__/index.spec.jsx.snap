@@ -132,6 +132,7 @@ exports[`DnInput Tests should render correctly with custom props 1`] = `
     <input
       disabled=""
       id="someId"
+      name="myInput"
       placeholder="Just an input field"
       type="text"
     />

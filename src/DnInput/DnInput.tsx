@@ -19,6 +19,7 @@ export const DnInput = ({
     frontIconComponent,
     backIconComponent,
     id,
+    name,
     ...rest
 }: DnInputProps): JSX.Element => {
     return (
@@ -39,7 +40,7 @@ export const DnInput = ({
             {...rest}
         >
             {frontIconComponent}
-            <input id={id} type={type} placeholder={placeholderText} disabled={isDisabled} />
+            <input id={id} name={name} type={type} placeholder={placeholderText} disabled={isDisabled} />
             {backIconComponent}
             {isError && <p className="message">{errorMessage}</p>}
         </div>
@@ -72,6 +73,7 @@ export interface DnInputProps {
     frontIconComponent?: React.ReactNode;
     backIconComponent?: React.ReactNode;
     id?: string;
+    name?: string;
 }
 
 DnInput.defaultProps = {
@@ -86,4 +88,5 @@ DnInput.defaultProps = {
     frontIconComponent: null,
     backIconComponent: null,
     id: undefined,
+    name: undefined,
 };
