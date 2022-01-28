@@ -63,6 +63,7 @@ describe('DnInput Tests', () => {
                     isInverse
                     errorMessage="Error"
                     placeholderText="Just an input field"
+                    name="myInput"
                 />
             </div>,
         );

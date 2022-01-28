@@ -37,6 +37,8 @@ const getPlaceholderText = (value) => text('placeholderText', value, propsGroupI
 
 const getId = (value) => text('id', value, propsGroupId);
 
+const getName = (value) => text('name', value, propsGroupId);
+
 export default {
     title: 'Components/DnInput',
     decorators: [withKnobs],
@@ -51,6 +53,7 @@ export const playground = () => {
         <div className={getThemeClassName()}>
             <DnInput
                 id={getId('someId')}
+                name={getName('someName')}
                 size={getSize()}
                 type={getType()}
                 isActive={getIsActive()}
@@ -68,6 +71,7 @@ export const fieldWithIconAtFront = () => {
     return (
         <DnInput
             id={getId('someId')}
+            name={getName('someName')}
             size={getSize()}
             type={getType()}
             isActive={getIsActive()}
@@ -87,6 +91,7 @@ export const fieldWithIconAtBack = () => {
     return (
         <DnInput
             id={getId('someId')}
+            name={getName('someName')}
             size={getSize()}
             type={getType()}
             isActive={getIsActive()}
@@ -105,6 +110,7 @@ export const fieldWithButton = () => {
         <DnInputGroup hasButton>
             <DnInput
                 id={getId('someId')}
+                name={getName('someName')}
                 size={getSize()}
                 type={getType()}
                 isActive={getIsActive()}
