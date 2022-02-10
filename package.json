@@ -23,6 +23,7 @@
   "types": "lib",
   "scripts": {
     "build": "tsc -p .",
+    "postbuild": "cpy '**/*.css' ../lib/ --cwd=src/ --parents",
     "lint": "eslint . --ext .ts,.tsx,.js,.jsx --fix",
     "pretest": "npm run lint",
     "test-ci": "npm run unit-test -- --ci --runInBand",
@@ -71,6 +72,7 @@
     "@typescript-eslint/eslint-plugin": "3.10.1",
     "@typescript-eslint/parser": "3.10.1",
     "babel-loader": "8.1.0",
+    "cpy-cli": "3.1.1",
     "cz-conventional-changelog": "3.3.0",
     "denali-css": "2.3.2",
     "enzyme": "3.11.0",
