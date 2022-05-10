@@ -17,6 +17,8 @@ exports[`DnAlert Tests should render correctly with custom props 1`] = `
   </div>
   <span
     class="link close is-secondary"
+    role="button"
+    tabindex="0"
   >
     <i
       class="d-icon d-close is-default is-sub"
@@ -37,12 +39,5 @@ exports[`DnAlert Tests should render with default props 1`] = `
       This is a title
     </h5>
   </div>
-  <span
-    class="link close is-secondary"
-  >
-    <i
-      class="d-icon d-close is-default is-sub"
-    />
-  </span>
 </div>
 `;

@@ -3,7 +3,7 @@
  * Licensed under the terms of the MIT license. See accompanying LICENSE.md file for terms.
  */
 
-import React from 'react';
+import React, { MouseEvent, KeyboardEvent } from 'react';
 import classnames from 'classnames';
 import { DnIcon } from '../DnIcon';
 
@@ -14,6 +14,9 @@ export const DnAlert: React.FC<DnAlertProps> = ({
     status,
     isBlock,
     className,
+    tabIndex,
+    onClose,
+    onCloseKeyDown,
     ...rest
 }: DnAlertProps) => {
     return (
@@ -33,10 +36,13 @@ export const DnAlert: React.FC<DnAlertProps> = ({
                 <h5>{title}</h5>
                 {context ? <p>{context}</p> : ''}
             </div>
-            <span className="link close is-secondary">
-                <DnIcon className="is-sub" icon="close" />
-            </span>
-        </div>
+            {
+                (onClose || onCloseKeyDown) &&
+                <span role="button" tabIndex={tabIndex} className="link close is-secondary" onClick={onClose} onKeyDown={onCloseKeyDown}>
+                    <DnIcon className="is-sub" icon="close" />
+                </span>
+            }
+        </div >
     );
 };
 
@@ -55,6 +61,9 @@ export interface DnAlertProps {
     status?: DnAlertStatus;
     isBlock?: boolean;
     className?: string;
+    tabIndex?: number;
+    onClose?: (e: MouseEvent<HTMLSpanElement>) => void;
+    onCloseKeyDown?: (e: KeyboardEvent<HTMLSpanElement>) => void;
 }
 
 DnAlert.defaultProps = {
