@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs';
+import { action } from '@storybook/addon-actions';
 import { getThemeClassName, propsGroupId } from '../../../.storybook/storybook-utils';
 import { DnAlert, DnAlertStatus } from '../../index'; // src/index.tsx
 
@@ -39,6 +40,9 @@ export const playground = () => {
                 status={getStatus(DnAlertStatus.danger)}
                 isBlock={getBlock(false)}
                 className={getClassName('test--class')}
+                tabIndex={0}
+                onClose={action('onClose')}
+                onCloseKeyDown={action('onCloseKeyDown')}
             />
         </div>
     );
